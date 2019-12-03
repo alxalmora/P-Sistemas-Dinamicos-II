@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>Business Cycle | Sistemas Dinamicos</title>
+  </head>
+  <body>
+      <div class="container-fluid" style="text-align: center">
+        <div class="row">
+          <div class="col-2">
+          </div>
+          <div class="col-8">
+            <h3>El Modelo Original de Multiplicador-Acelerador</h3>
+            <h5>Oscilador Armonico Amortiguado</h5>
+            <hr>
+            <p>Variaciones según la cantidad amortiguada:</p>
+            <img src="resources/g1.png" alt="">
+            <hr>
+            <p>Cuando el parametro es negativo, tenemos Oscilaciones Explosivas</p>
+            <img src="resources/g2.png" alt="">
+            <p>Donde la Amplitud se hace mayor conforme pasa el tiempo, muy rápido.</p>
+            <hr>
+            <h5>Retrato fase del modelo</h5>
+            <p>Cuando el parametro es 0 (Oscilador Armonico)</p>
+            <img src="resources/g3.png" alt="">
+                        <p>Cuando el parametro es 0.2 (Oscilador Armonico)</p>
+                        <img src="resources/g4.png" alt="">
+            <p>Cuando el parametro es 1 (Oscilador Armonico)</p>
+            <img src="resources/g5.png" alt="">
+          <hr>
+          <h3>Función de Inversión No Lineal (Oscilador de Van Der Pol)</h3>
+          <p>Despues de hacer unos cambios al sistema original llegamos a un nuevo sistema del tipo Van Der Pol, donde encontramos un ciclo límite</p>
+          <video src="resources/vanderpol.mp4" controls></video>
+          <hr>
+          <h3>Las Economías Pequeñas Abiertas</h3>
+          <p>Tenemos el caso especial de las economías suficientemente pequeñas, que cambios en su dinamica no tienen impacto considerable en la dinamica total, son las que tienen una propensión a importar muy pequeña.</p>
+          <img src="resources/g6.png" alt="">
+          <p>Y vemos que la diferencia en cambios de la economia pequeña no hay grandes cambios en la economia global</p>
+          <video src="resources/oscilador_acoplado.mp4" controls></video>
+          <hr>
+          <h3>Caos en la pequeña economia bajo fuerza de la Economia Mundial</h3>
+          <p>Cuando la economia pequeña se somete a la fuerza de la economia mundial, esta agrega una variable al modelo que puede provocar el caos, para valores de w = 2.457, tenemos que Van Der Pol pierde el ciclo limite y entra en un estado de Caos.</p>
+          <video src="resources/vanderpol_caos.mp4" controls></video>
+          </div>
+          <div class="col-2">
+
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
